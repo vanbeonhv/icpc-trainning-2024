@@ -1,0 +1,13 @@
+Lan 4 8
+Hanh 4 5
+Lan 6 10
+Phong 4 10
+Nam 4 9
+Phong 6 5
+Lan 2 4
+Phuong 6 1
+Nhung 2 7
+Nhung 6 9
+Nhung 5 8
+Nhung 4 10
+Lan 3 1
