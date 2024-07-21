@@ -22,7 +22,7 @@
 <a id="vietnamese-section"></a>
 # Tất cả các contest luyện tập cho ICPC PTIT 2024 của team 124.Knight
 
-### [Contest 1 - 21/07/2024](contest_1): giải được 6/10
+### [Contest 1 - 21/07/2024](contest/contest_1/problem_image/): giải được 6/10
   - Bài A: hai con trỏ - ***Dinh và Chinh***
   - Bài C: N quân hậu - quay lui ***- Van***
   - Bài D: quay lui ***- Van***
