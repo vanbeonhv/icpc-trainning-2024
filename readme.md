@@ -2,7 +2,7 @@
 
 [Vietnamese below](#vietnamese-section)
 
-### [Contest 1 - 07/21/2024](contest/contest_1/full_image/): solved 6/10
+### [Contest 1 - 07/21/2024](contest/contest_1/problem_image/): solved 6/10
   - Problem A: two pointer - ***Dinh and Chinh***
   - Problem C: N queen - backtracking ***- Van***
   - Problem D: backtracking ***- Van***
