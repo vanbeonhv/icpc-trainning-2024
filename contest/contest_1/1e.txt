@@ -1,0 +1,51 @@
+Có N hòn đá nổi trên mặt ao, hòn đá thứ i có độ cao bằng H[i] thỏa mãn: H[1] < H[2] < …  < H[N]. Chú ếch đang đứng trên viên đá đầu tiên (số 1). Chú ta cần di chuyển tới vị trí hòn đá thứ N.
+
+Mỗi bước, chú ếch tại vị trí i sẽ nhảy sang hòn đá ở vị trí i+1, i+2, … hoặc N, với tiêu hao năng lượng một khoảng đúng bằng (H[j] – H[i])2 + C (với j là vị trí kế tiếp).
+
+Các bạn hãy tính thử xem chú ếch cần sử dụng ít nhất bao nhiêu năng lượng để có thể đi tới đích?
+
+Input:
+
+Dòng đầu tiên là số nguyên N và C (2 ≤ N ≤ 200 000).
+
+Dòng tiếp theo gồm N số nguyên H[i] (1 ≤ H[i] ≤ 10^6).
+
+Output: 
+
+In ra đáp án là mức năng lượng tìm được.
+
+Test ví dụ:
+
+Input
+
+Output
+
+5 6
+
+1 2 3 4 5
+
+20
+
+ 
+
+ 
+
+2 1000
+
+50 100
+
+ 
+
+3500
+
+6 5
+
+1 2 3 10 15 20
+
+123
+
+ 
+
+Giải thích test 1:
+
+Đường đi tối ưu là 1 à 3 à 5, chi phí bằng ((3-1)2+6) + ((5-3)2+6) = 20.

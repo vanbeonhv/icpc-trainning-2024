@@ -1,20 +1,36 @@
-# ICPC Training Repository
+# All contests for ICPC PTIT 2024 training of team 124.Knight
 
-Welcome to the ICPC Training Repository!   
+[Vietnamese below](#vietnamese-section)
 
-This repository is designed to help team members prepare for the International Collegiate Programming Contest (ICPC).   
+### [Contest 1 - 07/21/2024](contest/contest_1/full_image/): solved 6/10
+  - Problem A: two pointer - ***Dinh and Chinh***
+  - Problem C: N queen - backtracking ***- Van***
+  - Problem D: backtracking ***- Van***
+  - Problem E (TLE): backtracking / dynamic programming / dijkstra ***- Van***
+  - Problem G: math ***- Van***
+  - Problem H: math ***- Chinh***
+  - Problem I: string ***- Van***
 
-Here, you'll find various resources, problem sets, and solutions to help you sharpen your programming skills and problem-solving abilities.
+## Source
+- <a href="https://icpc.ptit.edu.vn/" target="_blank">ICPC PTIT</a>
 
-Backtracking  
--
-Contest:
-https://codeforces.com/group/MWSDmqGsZm/contest/223339  
-Problem:
-- https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/Q
-- https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/O
-- https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/Y
-- https://codeforces.com/contest/727/problem/A
-- https://codeforces.com/contest/122/problem/A
-- https://codeforces.com/contest/476/problem/A
-- https://codeforces.com/contest/476/problem/B
+<br><br> 
+
+---
+<br><br>
+
+<a id="vietnamese-section"></a>
+# Tất cả các contest luyện tập cho ICPC PTIT 2024 của team 124.Knight
+
+### [Contest 1 - 21/07/2024](contest_1): giải được 6/10
+  - Bài A: hai con trỏ - ***Dinh và Chinh***
+  - Bài C: N quân hậu - quay lui ***- Van***
+  - Bài D: quay lui ***- Van***
+  - Bài E (TLE): quay lui / quy hoạch động / dijikstra ***- Van***
+  - Bài G: toán ***- Van***
+  - Bài H: toán ***- Chinh***
+  - Bài I: chuỗi ***- Van***
+  
+
+## Nguồn
+- <a href="https://icpc.ptit.edu.vn/" target="_blank">ICPC PTIT</a>

@@ -3,5 +3,7 @@
 !*.pdf
 !*.docx
 !*.txt
-!*.md
 !*/
+!*.md
+!*.py
+!*.png

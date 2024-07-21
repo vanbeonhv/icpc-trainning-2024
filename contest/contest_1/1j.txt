@@ -1,0 +1,58 @@
+
+
+BÀI 1J: PHẦN TỬ NHỎ NHẤT CỦA DÃY CON
+
+Cho dãy số A[] có N phần tử. Với mỗi độ dài X, chúng ta có được N-X+1 dãy con liên tiếp:
+
+B1[] = {A[1], A[2], …, A[X]}
+
+B2[] = {A[2], A[3], …, A[X+1]}
+
+…
+
+BN-X+1[] = {A[N-X+1], A[N-X+2], …, A[N]}
+
+Gọi Min[B] là giá trị phần tử nhỏ nhất của dãy con B[].
+
+Hãy tính giá trị S[X] = Max{ Min[B1], Min[B2], …, Min[BN-X+1]}
+
+Input:
+
+Dòng đầu tiên là số nguyên N.
+
+Dòng tiếp theo gồm N số nguyên A[i] (1 ≤ A[i] ≤ 10^9).
+
+Giới hạn:
+
+N ≤ 200 000.
+
+Output: 
+
+Với mỗi độ dài dãy số với giá trị X từ 1 à N, hãy in ra giá trị S[X] tìm được.
+
+Ví dụ:
+
+Input
+	
+
+Output
+
+10
+
+1 2 3 4 5 4 6 2 1 2
+	
+
+6 4 4 4 3 2 2 1 1 1
+
+ 
+
+ 
+
+5
+
+1 2 3 4 5
+
+ 
+	
+
+5 4 3 2 1

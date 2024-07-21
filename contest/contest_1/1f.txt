@@ -1,0 +1,43 @@
+BÀI 1F: KHẢ NĂNG TƯƠNG THÍCH
+
+Một lớp học mầm non có N bạn học sinh, mỗi bạn có những sở thích đồ ăn riêng, trong đó có 5 món ăn thích nhất, được liệt kê lần lượt là A[i], B[i], C[i], D[i], E[i].
+
+Dựa trên sở thích ăn uống như vậy, cô giáo muốn xác định xem có những bạn nhỏ nào không hợp nhau để sắp xếp chia nhóm học tập cho phù hợp. 2 bạn nhỏ được xem là hợp tính nhau nếu như 2 bạn cùng thích ít nhất món ăn chung.
+
+Các bạn hãy giúp cô giáo xác định xem có tất cả bao nhiêu cặp học sinh không hợp tính cách của nhau?
+
+Input:
+
+Dòng đầu tiên là số nguyên dương N (1 ≤ N ≤ 50000).
+
+N dòng tiếp theo, mỗi dòng gồm 5 số nguyên phân biệt A[i], B[i], C[i], D[i], E[i] (các giá trị này không vượt quá 106).
+
+Output: 
+
+In ra một số nguyên là số cặp học sinh có tính cách không hợp nhau.
+
+Test ví dụ:
+
+Input
+
+Output
+
+4
+
+1 2 3 4 5
+
+1 2 4 20 8
+
+20 9 8 7 6
+
+150 160 170 180 190
+
+ 
+
+4
+
+ 
+
+Giải thích test:
+
+Các cặp học sinh không tương thích về tính cách: (1, 3), (1, 4), (2, 4), (3, 4).

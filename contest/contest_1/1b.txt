@@ -1,0 +1,69 @@
+Số may mắn là số mà chỉ gồm các chữ số 4 và 7. Ví dụ các số 4, 7, 744 là các số may mắn còn 43, 247 thì không.
+
+Cho một cây có N đỉnh. Ngoài ra, mỗi cạnh trên cây đều có trọng số là một số nguyên dương. Một cạnh gọi là may mắn nếu trọng số cạnh đó là một số may mắn.
+
+Nhiệm vụ của bạn bây giờ là xem có bao nhiêu bộ 3 đỉnh (i, j, k) thỏa mãn. Đường đi từ i đến j cũng như đường đi từ i đến k đều chứa một cạnh may mắn. Biết rằng bộ (i, j, k) khác bộ (i, k, j) cũng như khác bộ (p, q, t) với p khác i.
+
+Input:
+
+Dòng đầu tiên chứa số nguyên N (1 ≤ N ≤ 105) là số đỉnh của cây.
+
+N – 1 dòng tiếp theo, dòng thứ i chứa 3 số nguyên u[i], v[i], w[i] (1 ≤ u[i], v[i] ≤ N, 1 ≤ w[i] ≤ 109) thể hiện cạnh nối đỉnh u[i] với cạnh v[i] và cạnh có trọng số w[i].
+
+Output:
+
+Một dòng duy nhất chứa kết quả của bài toán.
+
+Test ví dụ:
+
+Test 1
+
+Test 2
+
+Input:
+
+4
+
+1 2 4
+
+3 1 2
+
+1 4 7
+
+ 
+
+Output:
+
+16
+
+Input:
+
+9
+
+1 2 1
+
+1 3 7
+
+3 4 19
+
+3 5 2
+
+4 6 46
+
+7 4 25
+
+5 8 64
+
+5 9 73
+
+ 
+
+Output:
+
+98
+
+ 
+
+Test 1: Có 16 bô ba thỏa mãn như sau:
+
+(1,2,4),(1,4,2),(2,1,3),(2,1,4),(2,3,1),(2,3,4),(2,4,1),(2,4,3),(3,2,4),(3,4,2),(4,1,2),(4,1,3),(4,2,1),(4,2,3),(4,3,1),(4,3,2)

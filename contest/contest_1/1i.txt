@@ -1,0 +1,35 @@
+BÀI 1I: SỐ NGUYÊN LỚN
+
+Nam rất thích số nguyên lớn nhưng đến gần đây học môn Tin học cơ sở 2 thì Nam mới biết với kiểu số nguyên có dấu 64 bít trong các ngôn ngữ lập trình cơ bản thì giá trị lớn nhất lưu được cũng chỉ khoảng 18 chữ số. Còn nhiều hơn nữa sẽ phải dùng xâu ký tự.
+
+Với một dữ liệu văn bản bất kỳ có cả ký tự số và các ký tự không phải số, Nam rất muốn tìm kiếm các số nguyên có giá trị vượt quá khả năng lưu trữ của kiểu số nguyên có dấu 32 bít (ví dụ kiểu int trong C++) nhưng vẫn còn trong phạm vi lưu trữ của kiểu số nguyên có dấu 64 bít (ví dụ kiểu long long trong C++). Sau đó tính tổng của các số này. 
+
+Hãy giúp Nam thực hiện công việc trên. Với giả thiết dữ liệu vào không có số âm và tổng các số tìm được cũng không vượt quá phạm vi lưu trữ của kiểu số nguyên có dấu 64 bít. 
+
+Chú ý: dữ liệu có rất nhiều dòng với rất nhiều số và ký tự xen kẽ nhau. Chỉ tính tổng các số thỏa mãn điều kiện mô tả trên.
+
+Input
+
+Luồng dữ liệu văn bản có không quá 1000 dòng.
+
+Output
+
+Ghi ra giá trị tổng các số thoả mãn điều kiện.
+
+Ví dụ
+
+Input
+
+Output
+
+12 3 4 5 6 7
+123243434354546
+Aaa 1 1 Bbb XXX yyy 5 5 dsfrgrt3
+45646szdfse545
+44444444444444
+999999999999999999999999999 
+9876543456
+9
+
+167697755342446
+
