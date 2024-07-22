@@ -1,0 +1,1 @@
+<a href='https://codeforces.com/contestInvitation/f7bb9626f9e1a6efcacf5665baf28f7a826d9971?fbclid=IwZXh0bgNhZW0CMTAAAR3FuY8lzVIkYcWOTIghoCGlhl3l58zU3SIMJynjs-O90PqHeI02VPRNgQM_aem_hUXoec1AMU1Exe4FgpmHkA'>Link</a>
