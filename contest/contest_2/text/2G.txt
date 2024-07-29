@@ -1,0 +1,47 @@
+
+
+BÀI 2G - DÃY SỐ LŨY THỪA 2
+
+Cho dãy số A[] gồm các số nguyên dương là lũy thừa của 2.
+
+Tại mỗi bước, bạn được phép chọn 1 trong 2 thao tác sau:
+
+    Loại bỏ 1 số bất kỳ
+    Hoặc cộng 2 số giống nhau và liền kề với nhau trở thành 1 số mới.
+
+Các thao tác trên dừng lại khi chỉ còn 1 số duy nhất.
+
+Hãy tính xem giá trị lớn nhất có thể đạt được là bao nhiêu.
+
+Ví dụ dãy A[] ban đầu là {4,2,2,1,8} thì các thao tác có thể như sau:
+
+    Cộng 2 số 2 liền kề -> {4,4,1,8}
+    Cộng 2 số 4 liền kề -> {8,1,8}
+    Loại bỏ số 1 -> {8,8}
+    Cộng 2 số 8 liền kề -> {16}
+
+Và 16 cũng là giá trị lớn nhất có thể đạt được.
+
+Input
+
+Dòng đầu ghi số N là số phần tử của dãy A[] (1 ≤ N ≤ 1000).
+
+Dòng thứ 2 ghi N số của dãy A[], trong đó 1 ≤ A[i] ≤ 2100.
+
+Output
+
+Ghi ra giá trị lớn nhất có thể đạt được.
+
+Ví dụ  
+
+Input
+	
+
+Output
+
+5
+
+4 2 2 1 8
+	
+
+16

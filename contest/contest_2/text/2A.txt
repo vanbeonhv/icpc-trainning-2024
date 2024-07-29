@@ -1,0 +1,57 @@
+Cho trước N hình chữ nhật trong hệ trục tọa độ Oxy. Các hình chữ nhật này chia mặt phẳng thành các vùng riêng biệt, mà giữa 2 vùng bất kì không tồn tại đường đi giữa chúng.
+
+Nhiệm vụ của bạn là đếm số vùng riêng biệt đã được tạo ra.
+
+Hình vẽ test 1:
+
++f0mpvXMR4gs5AAAAAElFTkSuQmCC
+
+Hình vẽ test 2:
+
+H8YQPmQa5JElAAAAAElFTkSuQmCC
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 200).
+
+Mỗi bộ test gồm số nguyên dương N (N ≤ 50) là số hình chữ nhật.
+
+N dòng tiếp theo, mỗi dòng gồm 4 số nguyên xA, yA, xB, yB là tọa độ của góc trái trên và góc phải dưới của hình chữ nhật thứ i. (Các tọa độ là các số nguyên không âm và không vượt quá 106).
+
+Output:
+
+Với mỗi test, in ra số lượng các vùng riêng biệt được tạo ra bởi N hình chữ nhật đã cho.
+
+Test ví dụ:
+
+Input
+	
+
+Ouput
+
+2
+
+3
+
+4 28 27 11
+
+15 20 42 5
+
+11 24 33 14
+
+5
+
+4 28 27 11
+
+12 11 34 2
+
+7 26 14 16
+
+14 16 19 12
+
+17 28 27 21
+	
+
+8
+
+6

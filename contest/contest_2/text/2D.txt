@@ -1,0 +1,72 @@
+
+
+BÀI 2D - MỞ KHÓA
+
+Cho một chiếc khóa số có D kí tự, được đánh số là từ 0, 1, …, D-1. Mỗi bước, bạn có thể ấn một nút để lựa chọn một chữ số. Sau khi ấn thì không thể bật nút đó lại được nữa. Tuy nhiên, bạn có thể ấn nút RESET để bật tất cả các nút đã chọn về trạng thái ban đầu.
+
+I1A2ssujyQAAAAASUVORK5CYII=
+
+Chiếc khóa có 1 mật khẩu duy nhất, khi tổ hợp các nút được chọn trùng với tổ hợp mật khẩu, chiếc khóa sẽ được mở. Mặc dù bạn không biết mật khẩu chính xác là gì, nhưng trên tờ hướng dẫn sử dụng đã có ghi sẵn N mật khẩu tiềm năng.
+
+Nhiệm vụ của bạn là hãy tính số bước bấm nút ít nhất có thể, để có thể đảm bảo rằng tất cả các mật khẩu tiềm năng đều đã được thử qua, và chiếc khóa sẽ chắc chắc được mở. Khi ấn nút RESET sẽ được tính là 1 bước.
+
+Input:
+
+Dòng đầu tiên gồm 2 số nguyên D và N (1 ≤ D ≤ 10, 1 ≤ N ≤ 2D – 1).
+
+N dòng tiếp theo, mỗi dòng gồm D kí tự, mô tả một mật khẩu. Chỉ số của chuỗi mật khẩu được đánh số từ vị trí 0. Kí tự thứ j của mật khẩu bằng 1, biểu diễn tổ hợp mật khẩu có chứa chữ số j.
+
+Input đảm bảo các mật khẩu là phân biệt, và trong mỗi mật khẩu sẽ chứa ít nhất một kí tự 1.
+
+Output: 
+
+In ra một số nguyên là số lần bấm nút ít nhất để có thể mở khóa.
+
+Test ví dụ:
+
+Input
+	
+
+Output
+
+2 2
+
+10
+
+11
+
+ 
+	
+
+2
+
+3 4
+
+001
+
+111
+
+101
+
+011
+	
+
+6
+
+ 
+
+Giải thích test 1: Hai mật khẩu tiềm năng là 0 và 01.
+
+Ấn nút 0 trước, rồi ấn nút 1, chắc chắn chiếc khóa sẽ được mở ở bước 1 hoặc 2.
+
+ 
+
+Giải thích test 2:  Bốn mật khẩu tiềm năng là 2, 012, 02 và 12.
+
+Một giải pháp là 2 0 RESET 1 2 0.
+
+Ấn 2 và 0, xử lý được 2 mật khẩu tiềm năng là 2 và 02.
+
+Ấn 1 2 0, xử lý được 2 mật khẩu tiềm năng là 12 và 012.
+
+Một phương án khác đó là ấn theo thứ tự 1 2 RESET 2 0 1.

@@ -17,8 +17,8 @@ int main() {
         cin >> a[i];
     }
 
-    vector<bool> flipped(n + 1, false);
-
+    vector<bool> flipped(n + 1, false);   
+    
     for (int i = 0; i < M; ++i) {
         int ai = a[i];
         int start = ai - 1;
@@ -30,7 +30,7 @@ int main() {
     }
 
     string result = s;
-    bool reverse = false;
+    bool reverse = false false false false false;
     for (int i = 0; i < n; ++i) {
         if (flipped[i]) {
             reverse = !reverse;

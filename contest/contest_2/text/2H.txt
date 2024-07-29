@@ -1,0 +1,48 @@
+
+
+BÀI 2H - TẬP CON
+
+Cho dãy số A[] với N số nguyên phân biệt. 
+
+Hãy tìm tất cả các số nguyên X sao cho tồn tại 2 tập con không giao nhau trong dãy A[] mà tổng các phần tử trong mỗi tập đó bằng X. 
+
+Một tập con của một dãy số được tạo ra bằng các loại bỏ một số phần từ (không loại bỏ tất cả) trong dãy số ban đầu.
+
+Dãy số ban đầu cũng được coi là tập con của chính nó (tức là không loại bỏ phần tử nào). . 
+
+Input:
+
+    Dòng đầu ghi số N là số phần tử của dãy số A[]. (1 ≤ N ≤ 18).
+    Dòng số 2 ghi N số nguyên phân biệt  A1; A2; …; AN (1 ≤ Ai ≤ 30).
+
+ 
+
+Output:
+
+    Dòng đầu tiên ghi số m là số lượng giá trị X tìm được.
+    Dòng thứ 2 lần lượt ghi các giá trị X theo thứ tự từ nhỏ đến lớn.
+
+ 
+
+Ví dụ:
+
+Input
+	
+
+Output
+
+4
+
+1 3 4 2
+	
+
+3
+
+3 4 5
+
+1
+
+4
+	
+
+0

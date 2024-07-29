@@ -1,0 +1,45 @@
+
+
+BÀI 2B - BIỂU DIỄN THẬP PHÂN CÓ KHÔNG QUÁ 2 CHỮ SỐ
+
+Cho một số nguyên dương N, hãy đếm xem có bao nhiêu số nguyên dương trong đoạn [1, N] có biểu diễn thập phân gồm không quá 2 chữ số.
+
+Input:
+
+Một số nguyên dương N duy nhất (1 ≤ N ≤ 10^9).
+
+Output:
+
+In ra một số nguyên duy nhất là đáp án của bài toán.
+
+Test ví dụ:
+
+Input
+	
+
+Ouput
+
+10
+
+ 
+	
+
+10
+
+105
+
+ 
+	
+
+101
+
+356
+
+ 
+	
+
+175
+
+ 
+
+Giải thích test 2: Có 4 số không thỏa mãn là 102, 103, 104, 105.
