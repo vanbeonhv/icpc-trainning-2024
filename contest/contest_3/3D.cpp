@@ -25,8 +25,8 @@ int main() {
     cin >> x;
     prefix_sum += x;
 
-    ll mod_sum = (prefix_sum % m + m) % m;
-    cnt += mod_cnt[mod_sum];
+    // ll mod_sum = (prefix_sum % m + m) % m;
+    ll mod_sum = prefix_sum % m cnt += mod_cnt[mod_sum];
     mod_cnt[mod_sum]++;
   }
   cout << cnt;
